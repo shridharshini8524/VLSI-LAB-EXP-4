@@ -103,10 +103,13 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 VERILOG CODE:
 
 
+
 DEVELOPED BY:S.SHRIDHARSHINI.
 
 
+
 REGISTER NUMBER:212222060240.
+
 
 
 SR FLIPFLOP:
@@ -130,6 +133,8 @@ end
 end
 endmodule
 ~~~
+
+
 JK FLIPFLOP:
 ~~~
 module jkff(j,k,clk,rst,q);
@@ -151,6 +156,8 @@ end
 end
 endmodule
 ~~~
+
+
 T FLIPFLOP:
 ~~~
 module tff(clk,rst,t,q);
@@ -167,6 +174,8 @@ q=~q;
 end
 endmodule
 ~~~
+
+
 D FLIPFLOP:
 ~~~
 module dff(d,clk,rst,q);
@@ -197,6 +206,8 @@ out=out-1;
 end
 endmodule
 ~~~
+
+
 MOD 10 COUNTER:
 ~~~
 module mod10(clk,rst,out);
@@ -211,6 +222,8 @@ out=out+1;
 end
 endmodule
 ~~~
+
+
 RIPPLE COUNTER:
 ~~~
 module tff(q,clk,rst);
@@ -249,20 +262,32 @@ OUTPUT WAVEFORM:
 SR FLIPFLOP:
 
 
+
+
 ![WhatsApp Image 2024-04-14 at 21 33 51_da485061](https://github.com/shridharshini8524/VLSI-LAB-EXP-4/assets/148639799/b59ca965-f3d4-485c-b542-ba1ca7e6bc26)
 
 
+
+
 JK FLIPFLOP:
+
+
 
 
 ![WhatsApp Image 2024-04-14 at 21 36 33_34459828](https://github.com/shridharshini8524/VLSI-LAB-EXP-4/assets/148639799/ddf635e3-d22f-49ce-9870-20c6a530e18d)
 
 
 
+
+
 T FLIPFLOP:
 
 
+
+
 ![WhatsApp Image 2024-04-14 at 21 38 04_7cf60d55](https://github.com/shridharshini8524/VLSI-LAB-EXP-4/assets/148639799/22d57407-a01a-470e-8458-689b8a0db24f)
+
+
 
 
 
@@ -270,31 +295,49 @@ D FLIPFLOP:
 
 
 
+
+
 ![image](https://github.com/shridharshini8524/VLSI-LAB-EXP-4/assets/148639799/6f09bff8-8902-42c7-9698-53c3ef28b946)
+
+
 
 
 
 UP DOWN COUTER:
 
 
+
+
 ![WhatsApp Image 2024-04-14 at 21 41 41_b08dd8c8](https://github.com/shridharshini8524/VLSI-LAB-EXP-4/assets/148639799/6a27cbfe-46d1-4347-b9d2-12deaa5803e0)
+
+
 
 
 
 MODULE 10 COUNTER:
 
 
+
+
 ![WhatsApp Image 2024-04-14 at 21 44 56_3c89508a](https://github.com/shridharshini8524/VLSI-LAB-EXP-4/assets/148639799/70fb740d-b88e-4404-92ce-f46750a4372e)
+
+
 
 
 
 RIPPLE COUNTER:
 
 
+
+
 ![image](https://github.com/shridharshini8524/VLSI-LAB-EXP-4/assets/148639799/454eaf5c-d439-44f8-8bae-72c82ee3eaee)
 
 
+
+
 RESULT:
+
+
 
 
 Hence SR, JK, T, D - FLIPFLOP, COUNTER DESIGNS are simulated and synthesised using Xilinx ISE.
